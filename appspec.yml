@@ -3,10 +3,10 @@ os: linux
 files:
   - source: /index.php
     destination: /var/www/html/
-    overwrite: true
+    overwrite: merge
   - source: /happiness.png
     destination: /var/www/html/
-    overwrite: true
+    overwrite: merge
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
