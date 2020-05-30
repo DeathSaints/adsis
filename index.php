@@ -28,7 +28,7 @@
 <html>
 <head>
 <?php ?>
-    <title>Php Blog</title>
+    <title>Tugas 4</title>
   <?php  require('inc/header.php');?>
 </head>
 <body>
